@@ -5,12 +5,4 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/gallery/',
   },
-  extends: ['@nuxt/ui-pro'],
-  modules: [
-    '@nuxt/ui',
-    '@nuxt/fonts'
-  ],
-  colorMode: {
-    preference: 'dark'
-  }
 })
